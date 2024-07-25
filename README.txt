@@ -12,7 +12,8 @@ OBSERVATIONS and CORRECTIONS
 		- Missing data will be addressed more thoroughly with Python, as there are lots individual columns with null values as well as rows with large swathes of data missing.
 
 	- Originating Bureau: 
-		- 5 incidents are blank in this field, all of which are missing more division information. The quantity of missing data across columns for these incidents calls for them to be removed from this analysis.
+		- 5 incidents are blank in this field, all of which are missing more division information. 
+			- The quantity of missing data across columns for these incidents would for them to be removed from analysis.
 		- 1 row changed from ISB - Investigative Services Bureau | FOB - Field Operations Bureau to ISB - Investigative Services Bureau
 		- 6 row changed from MSB - Management Service Bureau to MSB - Management Services Bureau
 		- 2 rows changed from "Office of the Superintendant" to "Office of the Superintendent".
@@ -27,7 +28,7 @@ OBSERVATIONS and CORRECTIONS
 
 
 	- Division level: 
-		- 6 incidents have two reported division levels, separated by |. Only first Division level will be used for this analysis, since the division levels do not clearly correspond with the officers represented for these incidents.
+		- 6 incidents have two reported division levels, separated by |. Kept first division level.
 		- 103 rows changed from "SOD" to "Special Operations Division"
 		- 5 rows changed from "ADD", 4 from "Administrative Duties Services", 1 from "Administrative Support Unit" to "Administrative Duties Division"
 		- 10 rows changed from "ED & TRN", 2 from "Education/Training & Recruitment Division" to "Education and Training Division"		
@@ -83,7 +84,8 @@ OBSERVATIONS and CORRECTIONS
 
 
 	- Unit:
-		- Two incidents have the | delimiter in front of their unit. The first is marked as "duplicate investigation" in disposition in addition to some other quality issues, so the whole row will be dropped for this analysis. 
+		- Two incidents have the | delimiter in front of their unit.
+			- The first is marked as "duplicate investigation" in disposition in addition to some other quality issues, so the whole row will be dropped for this analysis. 
 		- FIT Criminal Investigations is input in one row, while FIT/Crim is in another. The division level is changed to PIB for both, and Criminal Investigations changed to be the unit.
 		- 3 rows changed from "General Assignments Other" to "Gen Assignment Other". The corresponding division is changed as well.
 		- 1 row changed from "k" to "K-9 Section". The division is listed as K9 Section and is changed to "Other Support" to match the other K-9 Section instances.
