@@ -8,7 +8,7 @@ Goals: Clean dataset, identify questions for analysis
 OBSERVATIONS and CORRECTIONS
 
 	General Observations: 
-		- Columns that should have one value occasionally have multiple. In those cases, the first value is kept.
+		- Columns that should have one value occasionally have multiple. In those cases, the first value is generally kept. 
 		- Missing data will be addressed more thoroughly with Python, as there are lots individual columns with null values as well as rows with large swathes of data missing.
 
 	- Originating Bureau: 
