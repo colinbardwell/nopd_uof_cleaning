@@ -1,3 +1,6 @@
+https://colinbardwell.wordpress.com/2024/07/25/cleaning-dirty-data-in-excel-nopd-use-of-force-incidents-dataset/
+^ Read the full project write-up here.
+
 This is a log of changes and resources used as cleaning was performed on a snapshot of the NOPD Use of Force Incidents dataset.
 The dataset includes initial reviews - subject to change, updated nightly
 
